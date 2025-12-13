@@ -1,3 +1,4 @@
+package Learning_Java.exercises;
 import java.util.Scanner;
 public class ex4{
 
