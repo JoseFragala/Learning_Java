@@ -1,3 +1,4 @@
+package learning_javinha.exercises;
 // escreva um código que receba o tamanho do lado de um quadrado, calcule sua área e exiba na tela.
 
 import java.util.Scanner;
@@ -11,6 +12,8 @@ public class ex2{
     var lado2 = scanner.nextInt();  
     var area = lado1*lado2;
     System.out.printf("Lado 1(%s) X lado 2(%s), então, área = %sm²\n", lado1, lado2, area);
+    
 
+    scanner.close();
 }
 }

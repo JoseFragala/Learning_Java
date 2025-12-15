@@ -1,9 +1,9 @@
-package Learning_Java.exercises;
+package learning_javinha.exercises;
 import java.util.Scanner;
 public class ex4{
 
     public static void main (String[] args){
-        var scanner = new Scanner (System.in);
+        try (Scanner scanner = new Scanner (System.in)){
     System.out.println(">>>>>>>>>CADASTRO PESSOA 1<<<<<<<<<<");
     System.out.println("Digite seu nome:");
     var nome1 = scanner.nextLine();
@@ -20,13 +20,13 @@ public class ex4{
     scanner.nextLine();// para limpar o enter. (estava dando erro)
     System.out.println("-----PESSOA 2 CADASTRADA COM SUCESSO!!!-----");
     var difAge = age1 - age2;
-    System.out.printf("\nA diferença de idade entre %s e %s é de %s Anos\n", nome1, nome2, difAge);
-
-    
+    System.out.printf("\nA diferença de idade entre %s e %s é de %s Anos\n"
+    , nome1, nome2, difAge);
 
 
 
    
 
 }
+    }
 }

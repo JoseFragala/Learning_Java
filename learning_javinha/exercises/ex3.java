@@ -1,3 +1,4 @@
+package learning_javinha.exercises;
 //Escreva um código que recebe a base e a altura de um retângulo, calcule sua área e exbiba na tela.
 import java.util.Scanner;
 public class ex3{
@@ -11,5 +12,6 @@ public class ex3{
     var area = base*altura;
     System.out.printf("Base(%s) X Altura(%s), então, área = %sm²\n", base, altura, area);
 
+    scanner.close();
 }
 }

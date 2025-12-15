@@ -1,3 +1,4 @@
+package learning_javinha.exercises;
 // escreva um código que receba o nome e o ano de nascimento de alguém
 // e imprima na tela a seguinte mensagem: Olá 'Fulano' você tem x anos".
 import java.util.Scanner;
@@ -11,6 +12,8 @@ public class ex1{
     var age  = scanner.nextInt();
     
     System.out.printf("Hello, %s you are %s years old", name, age);
+    scanner.close();
     }
+    
 }
 

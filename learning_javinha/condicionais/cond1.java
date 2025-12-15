@@ -1,4 +1,5 @@
-package Learning_Java.condicionais;
+package learning_javinha.condicionais;
+
 import java.util.Scanner;
  
 
@@ -6,7 +7,7 @@ public class cond1 {
     
 
     public static  void main (String[] args){
-        var scanner = new Scanner(System.in);
+        try (var scanner = new Scanner(System.in)){
         System.out.println("Informe seu nome");
         var name = scanner.next();
         System.out.println("Informe seu idade:");
@@ -99,3 +100,4 @@ System.out.println("Fim da execução");
 }
 
 
+}

@@ -1,10 +1,10 @@
-package Learning_Java.estrut_repet;
+package learning_javinha.estrut_repet;
 import java.util.Scanner;
 
 public class est1 {
     
     public static void main  (String[] args){
-        var scanner = new Scanner (System.in);
+        try (var scanner = new Scanner (System.in)){
         for (;;){
             System.out.println("Digite um nome:");
             var name = scanner.next();
@@ -13,7 +13,7 @@ public class est1 {
             if (name.equalsIgnoreCase("exit")) break;
 
             System.out.println(name);
-
+        }
         }
     }
 }

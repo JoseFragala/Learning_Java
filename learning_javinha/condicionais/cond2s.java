@@ -1,10 +1,10 @@
-package Learning_Java.condicionais;
+package learning_javinha.condicionais;
 import java.util.Scanner;
 public class cond2s {
 
 
     public static void main (String[] args){
-        var scanner = new Scanner (System.in);
+        try (var scanner = new Scanner (System.in)){
         System.out.println("Informe um número de 1 até 7");
         var option = scanner.nextInt();
         switch (option){
@@ -31,6 +31,7 @@ public class cond2s {
                 System.out.println("Opção inválida");
                 break;
         }
+    }
 
         // outra forma de trabalhar  com switch case
 
