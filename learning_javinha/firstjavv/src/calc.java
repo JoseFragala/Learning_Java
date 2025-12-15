@@ -1,3 +1,4 @@
+package learning_javinha.firstjavv.src;
 import java.util.Scanner;
 
 public class calc {
@@ -76,5 +77,7 @@ public class calc {
             System.out.println(numeroC++);
             System.out.println(numeroC); // usa o valor e depois incrementa
         
+
+            scanner.close();
 }
 }

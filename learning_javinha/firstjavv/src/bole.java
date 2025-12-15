@@ -1,6 +1,7 @@
+package learning_javinha.firstjavv.src;
 import java.util.Scanner;
 
-public class main{
+public class bole{
 // delcarar comentário
 /*declarar 
 comentário*/
@@ -45,7 +46,7 @@ comentário*/
 
 
     //tabela para resumo dos operadores lógicos
-
+/* 
     System.out.printf("true && true = %s\n", true && true);
     System.out.printf("false && false = %s\n", false && false);
     System.out.printf("true && false = %s\n", true && false);
@@ -58,6 +59,8 @@ comentário*/
     System.out.println("--------------");
     System.out.printf("!true = %s\n", !true);    
     System.out.printf("!false = %s\n", !false);
+    */
+
+    scanner.close();
 }
-    
 }

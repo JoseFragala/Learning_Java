@@ -8,6 +8,7 @@ public class estrutex {
     Scanner scanner = new Scanner (System.in);
     System.out.println("Digite um número:");
     var number = scanner.nextInt();
+    System.out.printf("O número escolhido foi %s, segue a tabuada de 1 a 10:\n", number);
     
     for (int i = 0; i <= 10 ; i++){
         var tabuada = number * i;
