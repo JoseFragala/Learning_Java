@@ -11,7 +11,6 @@ public class estrutex {
     
     for (int i = 0; i <= 10 ; i++){
         var tabuada = number * i;
-        System.out.printf("O número escolhido foi %s, segue a tabuada de 1 a 10:\n", number);
         System.out.printf("%s X %s = %s\n",  number, i, tabuada);
     }
     scanner.close();
